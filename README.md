@@ -43,12 +43,14 @@ sudo apt-get install ros-noetic-robot-state-publisher \
 ```
 ## 机器人模型说明
 1. 组成部分
+   
 | 部件 | 结构类型 | 关节数量 | 关节类型 | 颜色 |
-|------|----------|----------|----------|------|
+| --- | --- | --- | --- | --- |
 | 移动底盘 | 圆柱形 | 4 | 2个连续关节 + 2个固定关节 | 黄色 |
 | 激光雷达 | 柱状 | 1 | 固定关节 | 黑色 |
 | 机械臂 | 串联机械臂 | 6 | 旋转关节 | 蓝白相间 |
 | 末端夹爪 | 二指夹爪 | 1 | 平移关节 | 蓝色 |
+
 2. 关键参数
 ```xml
 <!-- 机械臂安装位置 -->
@@ -72,16 +74,17 @@ base_link (移动底盘)
 ```
 ## 项目截图
 
-**机器人模型可视化**
+**机器人模型可视化**<br>
 <img width="363" height="400" alt="机器人模型图" src="https://github.com/user-attachments/assets/e7e11bd7-0573-4bb3-8ad8-d0f9c8b5a101" />
+<br>
 
-**关节坐标轴标注**
+**关节坐标轴标注**<br>
 <img width="363" height="400" alt="机器人关节坐标轴图" src="https://github.com/user-attachments/assets/39050dba-ea94-4e08-a6ad-8383310ccd37" />
+<br>
 
-**关节交互控制**
+**关节交互控制**<br>
 ![机器人关节运动测试](https://github.com/user-attachments/assets/c9abab46-1f24-4c78-9deb-4e1cbb76f882)
-
-
+<br>
 
 作者信息<br>
 姓名: 李振<br>

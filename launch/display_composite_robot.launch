@@ -1,0 +1,14 @@
+<launch>
+    <!-- 直接加载合并后的URDF模型文件 -->
+    <param name="robot_description" textfile="$(find composite_robot_description)/urdf/mobile_manipulator.urdf" />
+
+    <!-- 启动 joint_state_publisher (GUI版本，用于控制关节) -->
+    <node name="joint_state_publisher" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" />
+
+    <!-- 启动 robot_state_publisher (发布TF变换) -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+    <!-- 启动 RVIZ，加载配置文件 -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find composite_robot_description)/config/composite_robot.rviz" required="true" />
+</launch>
+

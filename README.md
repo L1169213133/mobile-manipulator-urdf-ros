@@ -10,6 +10,7 @@
 - 完整的TF树构建
 
 ## 项目结构
+```
 composite_robot_description/
 ├── urdf/
 │ └── mobile_manipulator.urdf # 核心URDF模型文件
@@ -19,7 +20,7 @@ composite_robot_description/
 │ └── RVIZ.rviz # RVIZ配置文件
 ├── frames.pdf/ # TF树文件
 └── 20257007-李振-机器人建模与仿真.doc/ # 实验报告
-
+```
 ## 环境要求
 - **操作系统**: Ubuntu 20.04 LTS
 - **ROS版本**: ROS Noetic
@@ -58,6 +59,7 @@ sudo apt-get install ros-noetic-robot-state-publisher \
 </joint>
 ```
 3. TF树结构
+```
 base_link (移动底盘)
 ├── left_wheel_link
 ├── right_wheel_link
@@ -67,6 +69,7 @@ base_link (移动底盘)
 └── arm_base_link (机械臂底座)
     └── link1 → link2 → link3 → link4 → link5 → link6
         └── gripper_finger_link1/2
+```
 ## 项目截图
 机器人模型可视化
 <img width="363" height="659" alt="机器人模型图" src="https://github.com/user-attachments/assets/e7e11bd7-0573-4bb3-8ad8-d0f9c8b5a101" />

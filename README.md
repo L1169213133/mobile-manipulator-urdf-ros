@@ -71,18 +71,17 @@ base_link (移动底盘)
         └── gripper_finger_link1/2
 ```
 ## 项目截图
-<center>
-机器人模型可视化
-<center>
-<img width="363" height="659" alt="机器人模型图" src="https://github.com/user-attachments/assets/e7e11bd7-0573-4bb3-8ad8-d0f9c8b5a101" />
-<center>
-关节坐标轴标注
-<center>
-<img width="363" height="659" alt="机器人关节坐标轴图" src="https://github.com/user-attachments/assets/39050dba-ea94-4e08-a6ad-8383310ccd37" />
-<center>
-关节交互控制
-<center>
-![机器人关节运动测试](https://github.com/user-attachments/assets/c6e9bc6d-0059-4637-becf-1001267f8061)
+
+**机器人模型可视化**
+<img width="363" height="400" alt="机器人模型图" src="https://github.com/user-attachments/assets/e7e11bd7-0573-4bb3-8ad8-d0f9c8b5a101" />
+
+**关节坐标轴标注**
+<img width="363" height="400" alt="机器人关节坐标轴图" src="https://github.com/user-attachments/assets/39050dba-ea94-4e08-a6ad-8383310ccd37" />
+
+**关节交互控制**
+![机器人关节运动测试](https://github.com/user-attachments/assets/c9abab46-1f24-4c78-9deb-4e1cbb76f882)
+
+
 
 作者信息<br>
 姓名: 李振<br>
